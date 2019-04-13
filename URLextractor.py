@@ -83,7 +83,7 @@ def start():
     except PermissionError as e:
         print("Failed to open file! Please close your \'Features.csv\' file.")
         exit(0)
-    path = r'.\XSSArchive3.csv'
+    path = r'.\XSSArchive.csv'
     LIST = opendata(path) #read data
     limit = 0
     for url in LIST:
